@@ -4,12 +4,12 @@ session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-    header("location: testwel.php");
+    header("location:/cake/testwel.php");
     exit;
 }
  
 // Include config file
-require_once "testconfig.php";
+require_once "/cake/testconfig.php";
  
 // Define variables and initialize with empty values
 $username = $password = "";
@@ -124,7 +124,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
-            <p>Don't have an account? <a href="testsignup.php">Sign up now</a>.</p>
+            <p>Don't have an account? <a href="/cake/testsignup.php">Sign up now</a>.</p>
         </form>
     </div>
 </body>
