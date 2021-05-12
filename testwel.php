@@ -39,23 +39,23 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="testwel.php">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/cake/testwel.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-        <a class="nav-link" href="gallery.php">Gallery</a>
+        <a class="nav-link" href="/cake/gallery.php">Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="testitem.php">Products</a>
+        <a class="nav-link" href="/cake/testitem.php">Products</a>
       </li>
 	   <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Feedback
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="contactus.html">contact us</a>
-          <a class="dropdown-item" href="chef.html">chef</a>
+          <a class="dropdown-item" href="/cake/contactus.html">contact us</a>
+          <a class="dropdown-item" href="/cake/chef.html">chef</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="t&c">terms and conditions</a>
+          <a class="dropdown-item" href="/cake/t&c">terms and conditions</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -73,14 +73,14 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       </li>
     </ul>
     <div>
-        <a href="mycart.php" class="btn btn-outline-success ml-2">My cart(0)</a>
+        <a href="/cake/mycart.php" class="btn btn-outline-success ml-2">My cart(0)</a>
 </div>
     <form class="d-flex">
                     <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn0" type="submit">Search</button>
                 </form>
                   	<div class="mx-2">
-                    <a href="testlogout.php" class="btn btn-danger ml-3">Sign Out</a>
+                    <a href="/cake/testlogout.php" class="btn btn-danger ml-3">Sign Out</a>
                 </div>
   </div>
 </nav>
