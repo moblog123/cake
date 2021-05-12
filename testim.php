@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="testim.php">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/cake/testim.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link scrollto" href="#about">About</a>
@@ -366,8 +366,8 @@
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" required="required">
-                                <label class="form-check-label">I accept the <a href="t&c.html">Terms of Use</a> &amp;
-                                    <a href="t&c.html">Privacy
+                                <label class="form-check-label">I accept the <a href="/cake/t&c.html">Terms of Use</a> &amp;
+                                    <a href="/cake/t&c.html">Privacy
                                         Policy</a></label>
                             </div>
                             <div class="form-group">
